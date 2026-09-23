@@ -151,14 +151,32 @@ export default function Home() {
       {/* Team Section */}
       <section id="team" className="section animate-fade-in" style={{ animationDelay: '0.6s' }}>
         <h2 className="section-title">Kenali <span className="gradient-text">The Dreamers</span></h2>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <div className="glass-card" style={{ textAlign: 'center', maxWidth: '350px', width: '100%' }}>
+        <div className="grid-3">
+          <div className="glass-card" style={{ textAlign: 'center' }}>
             <div className="profile-image">
               <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Bambang&backgroundColor=b6e3f4" alt="Bambang Nursetia" />
             </div>
             <h3 className="card-title">Bambang Nursetia</h3>
-            <p className="card-desc" style={{ marginBottom: '1rem' }}>Developer</p>
-            <span className="badge">Code Enthusiast</span>
+            <p className="card-desc" style={{ marginBottom: '1rem' }}>Technical Leader Dev</p>
+            <span className="badge">Fullstack & IoT</span>
+          </div>
+
+          <div className="glass-card" style={{ textAlign: 'center' }}>
+            <div className="profile-image">
+              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Rina&backgroundColor=ffdfbf" alt="Rina Melati" />
+            </div>
+            <h3 className="card-title">Rina Melati</h3>
+            <p className="card-desc" style={{ marginBottom: '1rem' }}>UI/UX Designer</p>
+            <span className="badge">Creative Thinker</span>
+          </div>
+
+          <div className="glass-card" style={{ textAlign: 'center' }}>
+            <div className="profile-image">
+              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Arif&backgroundColor=c0aede" alt="Arif Rahman" />
+            </div>
+            <h3 className="card-title">Arif Rahman</h3>
+            <p className="card-desc" style={{ marginBottom: '1rem' }}>Hardware Engineer</p>
+            <span className="badge">IoT Specialist</span>
           </div>
         </div>
       </section>
