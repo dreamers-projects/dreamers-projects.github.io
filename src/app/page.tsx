@@ -22,8 +22,8 @@ export default function Home() {
           </p>
           
           <div className="button-group">
-            <a href="#projects" className="btn-primary">
-              Lihat Karya Kami
+            <a href="#free-apps" className="btn-primary">
+              Unduh Aplikasi Gratis
             </a>
             <a href="#contact" className="btn-secondary">
               Mari Berkolaborasi
@@ -90,6 +90,60 @@ export default function Home() {
             <p className="card-desc">
               Dashboard analitik mutakhir dengan integrasi Local AI untuk prediksi data, dibangun dengan ekosistem Next.js, NestJS, dan PostgreSQL.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Free Apps Section */}
+      <section id="free-apps" className="section animate-fade-in" style={{ animationDelay: '0.5s' }}>
+        <h2 className="section-title">Unduh <span className="gradient-text">Gratis</span></h2>
+        <div className="grid-3">
+          <div className="glass-card" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
+              <div className="card-icon" style={{ marginBottom: 0, marginRight: '1rem', fontSize: '2rem' }}>📦</div>
+              <div>
+                <h3 className="card-title" style={{ marginBottom: '0.25rem', fontSize: '1.1rem' }}>KasirKu Lite</h3>
+                <span className="badge" style={{ marginBottom: 0 }}>.exe (Win)</span>
+              </div>
+            </div>
+            <p className="card-desc" style={{ flexGrow: 1, marginBottom: '1.5rem' }}>
+              Aplikasi kasir (POS) sederhana dan ringan berbasis Delphi/VisualBasic untuk membantu pembukuan UMKM.
+            </p>
+            <a href="#" className="btn-primary" style={{ textAlign: 'center', width: '100%' }}>
+              Download (.exe)
+            </a>
+          </div>
+
+          <div className="glass-card" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
+              <div className="card-icon" style={{ marginBottom: 0, marginRight: '1rem', fontSize: '2rem' }}>📱</div>
+              <div>
+                <h3 className="card-title" style={{ marginBottom: '0.25rem', fontSize: '1.1rem' }}>Smart Home Hub</h3>
+                <span className="badge" style={{ marginBottom: 0 }}>.apk (Android)</span>
+              </div>
+            </div>
+            <p className="card-desc" style={{ flexGrow: 1, marginBottom: '1.5rem' }}>
+              Aplikasi Android (React Native) untuk mengendalikan perangkat IoT seperti NodeMCU & Arduino via WiFi.
+            </p>
+            <a href="#" className="btn-primary" style={{ textAlign: 'center', width: '100%' }}>
+              Download (.apk)
+            </a>
+          </div>
+
+          <div className="glass-card" style={{ padding: '1.5rem', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', alignItems: 'center', marginBottom: '1rem' }}>
+              <div className="card-icon" style={{ marginBottom: 0, marginRight: '1rem', fontSize: '2rem' }}>💻</div>
+              <div>
+                <h3 className="card-title" style={{ marginBottom: '0.25rem', fontSize: '1.1rem' }}>Local AI Starter</h3>
+                <span className="badge" style={{ marginBottom: 0 }}>Source Code</span>
+              </div>
+            </div>
+            <p className="card-desc" style={{ flexGrow: 1, marginBottom: '1.5rem' }}>
+              Boilerplate Python & Next.js untuk membangun chatbot dan automasi AI yang bisa dijalankan offline.
+            </p>
+            <a href="https://github.com/dreamers-projects" target="_blank" rel="noopener noreferrer" className="btn-primary" style={{ textAlign: 'center', width: '100%' }}>
+              Lihat di GitHub
+            </a>
           </div>
         </div>
       </section>
