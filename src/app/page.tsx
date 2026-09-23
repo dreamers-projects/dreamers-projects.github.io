@@ -32,34 +32,34 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Services Section */}
+      {/* Tech Stack Section */}
       <section id="services" className="section animate-fade-in" style={{ animationDelay: '0.2s' }}>
-        <h2 className="section-title">Layanan <span className="gradient-text">Kami</span></h2>
+        <h2 className="section-title">Keahlian & <span className="gradient-text">Teknologi</span></h2>
         <div className="grid-3">
           <div className="glass-card">
-            <div className="card-icon">✧</div>
-            <h3 className="card-title">UI/UX Design</h3>
+            <div className="card-icon">⚙️</div>
+            <h3 className="card-title">IoT & Hardware</h3>
             <p className="card-desc">
-              Mendesain antarmuka yang tidak hanya indah dipandang, tetapi juga 
-              intuitif dan memberikan pengalaman pengguna yang luar biasa.
+              Membangun sistem otomasi dan monitoring cerdas menggunakan 
+              <strong> Arduino</strong>, <strong>NodeMCU</strong>, hingga sistem kelas industri dengan <strong>PLC</strong>.
             </p>
           </div>
           
           <div className="glass-card">
-            <div className="card-icon">⚡</div>
-            <h3 className="card-title">Web Development</h3>
+            <div className="card-icon">🌐</div>
+            <h3 className="card-title">Web & Mobile Apps</h3>
             <p className="card-desc">
-              Membangun website modern, cepat, dan responsif menggunakan 
-              teknologi terkini seperti Next.js dan React.
+              Pengembangan aplikasi lintas platform dan website modern menggunakan 
+              <strong> Javascript</strong>, <strong>React/ReactJS</strong>, <strong>React Native</strong>, <strong>Next.js</strong>, dan <strong>NestJS</strong> dengan basis data <strong>MySQL</strong> & <strong>PostgreSQL</strong>.
             </p>
           </div>
 
           <div className="glass-card">
-            <div className="card-icon">⌘</div>
-            <h3 className="card-title">Branding</h3>
+            <div className="card-icon">🧠</div>
+            <h3 className="card-title">Desktop & Local AI</h3>
             <p className="card-desc">
-              Menciptakan identitas visual yang kuat dan berkarakter untuk 
-              membuat brand Anda tampil menonjol.
+              Integrasi <strong>Local AI</strong> dan pembuatan perangkat lunak handal menggunakan 
+              <strong> Python</strong>, <strong>Delphi</strong>, dan <strong>VisualBasic</strong>.
             </p>
           </div>
         </div>
@@ -72,25 +72,23 @@ export default function Home() {
           <div className="glass-card" style={{ padding: '1.5rem' }}>
             <div className="project-image-container">
               {/* Fallback color/gradient if no image */}
-              <div className="project-image" style={{ background: 'linear-gradient(45deg, #3b82f6, #8b5cf6)' }}></div>
+              <div className="project-image" style={{ background: 'linear-gradient(45deg, #10b981, #047857)' }}></div>
             </div>
-            <span className="badge">Web App</span>
-            <h3 className="card-title">Nova Dashboard</h3>
+            <span className="badge">Hardware / IoT</span>
+            <h3 className="card-title">Smart Automation System</h3>
             <p className="card-desc">
-              Platform analitik dengan visualisasi data real-time dan dashboard 
-              interaktif yang kustomizable.
+              Sistem kendali pintar terintegrasi dengan sensor real-time yang memadukan NodeMCU dan PLC untuk keperluan otomasi industri.
             </p>
           </div>
 
           <div className="glass-card" style={{ padding: '1.5rem' }}>
             <div className="project-image-container">
-              <div className="project-image" style={{ background: 'linear-gradient(45deg, #10b981, #3b82f6)' }}></div>
+              <div className="project-image" style={{ background: 'linear-gradient(45deg, #6366f1, #a855f7)' }}></div>
             </div>
-            <span className="badge">E-Commerce</span>
-            <h3 className="card-title">Lumina Storefront</h3>
+            <span className="badge">Fullstack & AI</span>
+            <h3 className="card-title">AI-Powered Dashboard</h3>
             <p className="card-desc">
-              Toko online premium dengan pengalaman belanja yang mulus dan 
-              integrasi pembayaran multi-channel.
+              Dashboard analitik mutakhir dengan integrasi Local AI untuk prediksi data, dibangun dengan ekosistem Next.js, NestJS, dan PostgreSQL.
             </p>
           </div>
         </div>
