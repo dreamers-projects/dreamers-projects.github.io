@@ -99,33 +99,14 @@ export default function Home() {
       {/* Team Section */}
       <section id="team" className="section animate-fade-in" style={{ animationDelay: '0.6s' }}>
         <h2 className="section-title">Kenali <span className="gradient-text">The Dreamers</span></h2>
-        <div className="grid-3">
-          <div className="glass-card" style={{ textAlign: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <div className="glass-card" style={{ textAlign: 'center', maxWidth: '350px', width: '100%' }}>
             <div className="profile-image">
-              {/* Dummy Image Profile */}
-              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix&backgroundColor=b6e3f4" alt="Team Member 1" />
+              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Bambang&backgroundColor=b6e3f4" alt="Bambang Nursetia" />
             </div>
-            <h3 className="card-title">Alex Chandra</h3>
-            <p className="card-desc" style={{ marginBottom: '1rem' }}>Lead Developer</p>
-            <span className="badge">Next.js Wizard</span>
-          </div>
-
-          <div className="glass-card" style={{ textAlign: 'center' }}>
-            <div className="profile-image">
-              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica&backgroundColor=ffdfbf" alt="Team Member 2" />
-            </div>
-            <h3 className="card-title">Sarah Maheswari</h3>
-            <p className="card-desc" style={{ marginBottom: '1rem' }}>UI/UX Designer</p>
-            <span className="badge">Pixel Perfect</span>
-          </div>
-
-          <div className="glass-card" style={{ textAlign: 'center' }}>
-            <div className="profile-image">
-              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Alex&backgroundColor=c0aede" alt="Team Member 3" />
-            </div>
-            <h3 className="card-title">Bima Sakti</h3>
-            <p className="card-desc" style={{ marginBottom: '1rem' }}>Project Manager</p>
-            <span className="badge">Scrum Master</span>
+            <h3 className="card-title">Bambang Nursetia</h3>
+            <p className="card-desc" style={{ marginBottom: '1rem' }}>Developer</p>
+            <span className="badge">Code Enthusiast</span>
           </div>
         </div>
       </section>
@@ -136,9 +117,9 @@ export default function Home() {
           Punya Ide Hebat?
         </h2>
         <p className="subtitle" style={{ maxWidth: '600px', margin: '0 auto 2rem' }}>
-          Mari kita diskusikan bagaimana kami bisa membantu mewujudkan ide Anda.
+          Mari kita diskusikan bagaimana proyek ini bisa diwujudkan.
         </p>
-        <a href="mailto:hello@dreamers-projects.com" className="btn-primary">
+        <a href="mailto:bambang_nursetia@gmail.com" className="btn-primary">
           Hubungi Kami
         </a>
         
